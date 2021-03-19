@@ -68,15 +68,15 @@ Atmosphäre" der Prüfung / Verhalten der Beisitzer
 Entspannt, Beisitzer hat sich sehr zurück gehalten 
 
 Prüfungsfragen
-- CP Verbindungsaufbau und Abbau anhand eines Zustandautomaten erklären (Timewait...)
-- uverlässigkeit in TCP: Definition und Umsetzung
-- CP Reno und New Reno: Fast Retransmit, Fast Recovery, sowie Unterschiede zw. den beiden Versionen erklären
-- GP und Routing im Internet grob erklären, Probleme von BGP umreisen
-- CP Cubic anhand von Verlaufsgraphen erkennen
-- ehlerbalken zu einer ns3 Simulation erklären (zwei UDP sender vor einem Bottelneck):
-    - as für Fehlerbalken sind das?/Was für Fehlerbalken sind hier sinnvoll?
-    - as sollte man bei dieser Simulation erwarten? 
-    - arum sehen die nicht so aus wie man das eigentlich erwarten würde? 
+- TCP Verbindungsaufbau und Abbau anhand eines Zustandautomaten erklären (Timewait...)
+- Zuverlässigkeit in TCP: Definition und Umsetzung
+- TCP Reno und New Reno: Fast Retransmit, Fast Recovery, sowie Unterschiede zw. den beiden Versionen erklären
+- BGP und Routing im Internet grob erklären, Probleme von BGP umreisen
+- TCP Cubic anhand von Verlaufsgraphen erkennen
+- Fehlerbalken zu einer ns3 Simulation erklären (zwei UDP sender vor einem Bottelneck):
+    - Was für Fehlerbalken sind das?/Was für Fehlerbalken sind hier sinnvoll?
+    - was sollte man bei dieser Simulation erwarten? 
+    - Warum sehen die nicht so aus wie man das eigentlich erwarten würde? 
    (Stichwort: Selbstsynchronisierungseffekte bei Simulation durch fehlenden Zufall)
 
 
