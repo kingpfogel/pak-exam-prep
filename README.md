@@ -33,19 +33,19 @@ Sehr angenehm, Kaffee und Tee wurden angeboten. Gespräch wurde auf der Couch mi
 gestartet und später am WhiteBoard fortgesetzt.
 ### Prüfungsfragen
 - SMTP Funktionsweise erklären
- - Wie wird dann das Ende einer Nachricht angezeigt? 
- - Was sind Alternativen?
- - Was sind Nachteile bei jedem?
+- Wie wird dann das Ende einer Nachricht angezeigt? 
+- Was sind Alternativen?
+- Was sind Nachteile bei jedem?
 - Dann weiter zu TCP
- - Abbildung mit Zuständen bei öffnen und schließen von Verbindungen erklären
- - Angenommen der Server möchte Verbindung schließen? Probleme?
- - Angenommen Server wählt Timeout zu klein? Was passiert im schlimmsten Fall? 
+- Abbildung mit Zuständen bei öffnen und schließen von Verbindungen erklären
+- Angenommen der Server möchte Verbindung schließen? Probleme?
+- Angenommen Server wählt Timeout zu klein? Was passiert im schlimmsten Fall? 
 
 -- Von jetzt an der Tafel -- 
 - Zeichnung an Tafel
- - Ein Sender überträgt mit großer Datenrate über einen Router der nur kleine Datenrate weitersenden kann
- - Was kommt beim Empfänger an?
- - Wenn ein weiterer Sender hinzukommt welche Effekte sehen wir dann? (UDP (keine Überlastkontrolle), Warteschlangen, hier mehrere Fälle betrachtet)
+- Ein Sender überträgt mit großer Datenrate über einen Router der nur kleine Datenrate weitersenden kann
+- Was kommt beim Empfänger an?
+- Wenn ein weiterer Sender hinzukommt welche Effekte sehen wir dann? (UDP (keine Überlastkontrolle), Warteschlangen, hier mehrere Fälle betrachtet)
 - TCP Cubic erkennen und erklären
 
 ### Note (Optional)
@@ -68,12 +68,12 @@ Atmosphäre" der Prüfung / Verhalten der Beisitzer
 Entspannt, Beisitzer hat sich sehr zurück gehalten 
 
 Prüfungsfragen
- -TCP Verbindungsaufbau und Abbau anhand eines Zustandautomaten erklären (Timewait...)
- -Zuverlässigkeit in TCP: Definition und Umsetzung
- -TCP Reno und New Reno: Fast Retransmit, Fast Recovery, sowie Unterschiede zw. den beiden Versionen erklären
- -BGP und Routing im Internet grob erklären, Probleme von BGP umreisen
- -TCP Cubic anhand von Verlaufsgraphen erkennen
- -Fehlerbalken zu einer ns3 Simulation erklären (zwei UDP sender vor einem Bottelneck):
+-TCP Verbindungsaufbau und Abbau anhand eines Zustandautomaten erklären (Timewait...)
+-Zuverlässigkeit in TCP: Definition und Umsetzung
+-TCP Reno und New Reno: Fast Retransmit, Fast Recovery, sowie Unterschiede zw. den beiden Versionen erklären
+-BGP und Routing im Internet grob erklären, Probleme von BGP umreisen
+-TCP Cubic anhand von Verlaufsgraphen erkennen
+-Fehlerbalken zu einer ns3 Simulation erklären (zwei UDP sender vor einem Bottelneck):
     -Was für Fehlerbalken sind das?/Was für Fehlerbalken sind hier sinnvoll?
     -was sollte man bei dieser Simulation erwarten? 
     -Warum sehen die nicht so aus wie man das eigentlich erwarten würde? 
