@@ -46,15 +46,8 @@ Am WhiteBoard
    (Stichwort: Selbstsynchronisierungseffekte bei Simulation durch fehlenden Zufall)
 
 
-Note (Optional)
+### Note (Optional)
 1.0
-
-Fazit (Gute/schlechte Prüfung , angemessene Benotung etc...)
-Lief gut, der Prüfer hat immer wieder mal nachgefragt und hat verschiedene Themen die ich angerissen habe aufgegriffen für 
-Folgefragen. Fragen waren insgesamt weit gestreut. Die Frage mit der Simulation war ganz am Ende und es hat relativ lange 
-gebraucht bis ich die richtige Idee hatte. Wurde aber nie gehetzt.
-
-
 
 ### Prüfungsfragen
 1. TCP
@@ -74,9 +67,6 @@ gebraucht bis ich die richtige Idee hatte. Wurde aber nie gehetzt.
 3. TCP (Nochmal)
 - Wie sieht der Verlauf von der Fenstergröße aus über der Zeit aus (Sägezähne)? Einmal mit RTT auf der x-achse, einmal mit der Echtzeit
 - Wie verändern sich die Sägezähne wenn die RTT sich auf einmal verdoppelt?
-
-### Fazit (Gute/schlechte Prüfung , angemessene Benotung etc...)
-Insgesamt eine sehr angenehme Prüfung. Der Prüfer hat schwierige Fragen gestellt aber war auch zufrieden wenn man etwas braucht um auf die Lösung zu kommen. Am Ende war er mit meiner Prüfungsleistung zufriedener als ich.
 
 
 
@@ -98,9 +88,6 @@ Insgesamt eine sehr angenehme Prüfung. Der Prüfer hat schwierige Fragen gestel
 (R###sqrt(3/2p)mss/rtt-formel benutzen)
 ### Note (Optional)
 1,3
-### Fazit (Gute/schlechte Prüfung , angemessene Benotung etc...)
-Sehr Fair, ich hätte mich eher bei 2,x gesehen
-
 
 
 ### Prüfungsfragen
