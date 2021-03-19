@@ -102,3 +102,4 @@ Am WhiteBoard
   Paketverlustraten anstellen?
 - Wie ist die durchschnittliche Datenrate im angemalten Szenario bei Verwendung
   von TCP Reno? Wie ist die Paketverlustwahrscheinlichkeit?
+
