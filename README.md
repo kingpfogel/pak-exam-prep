@@ -1,13 +1,5 @@
 # pak-exam-prep
 
-### Datum der Prüfung
-April 2014
-### Benötigte Lernzeit als Empfehlung
-1 Woche
-### Verwendete Materialien (Bücher, Skripte etc...)
-Skripte, RFCs
-### \"Atmosphäre\" der Prüfung / Verhalten der Beisitzer
-Angenehm, erst Einstiegsfragen, dann später viel am WhiteBoard gearbeitet. Beisitzer hat nichts gesagt
 ### Prüfungsfragen
 - Zuverlässigkeit in Netzwerken - Definition
 - Wie in TCP? ACKs/Timeout
@@ -19,18 +11,7 @@ Am WhiteBoard
 - Was ist Bufferbloat? Wie behebt man das? (RED/ CoDel) 
 ### Note (Optional)
 1.0
-### Fazit (Gute/schlechte Prüfung , angemessene Benotung etc...)
-Angenehme Prüfung, Breite Streuung der Fragen.
 
-### Datum der Prüfung
-2/18
-### Benötigte Lernzeit als Empfehlung
-1 Woche
-### Verwendete Materialien (Bücher, Skripte etc...)
-Skripte, ggf. RFC
-### "Atmosphäre" der Prüfung / Verhalten der Beisitzer
-Sehr angenehm, Kaffee und Tee wurden angeboten. Gespräch wurde auf der Couch mit Einstiegsfragen
-gestartet und später am WhiteBoard fortgesetzt.
 ### Prüfungsfragen
 - SMTP Funktionsweise erklären
 - Wie wird dann das Ende einer Nachricht angezeigt? 
@@ -50,24 +31,9 @@ gestartet und später am WhiteBoard fortgesetzt.
 
 ### Note (Optional)
 1,3
-### Fazit (Gute/schlechte Prüfung , angemessene Benotung etc...)
-Sehr angenehme Prüfung, Faire Bewertung, mehr breite als tiefgehende Fragen, bei Problemen
-leichter Schubs in die richtige Richtung
 
 
-Datum der Prüfung
-   2/2018
-
-Benötigte Lernzeit als Empfehlung
- 5-7 Tage
-
-Verwendete Materialien (Bücher, Skripte etc...)
-Skripte und RFCs (für Details)
-
-Atmosphäre" der Prüfung / Verhalten der Beisitzer
-Entspannt, Beisitzer hat sich sehr zurück gehalten 
-
-Prüfungsfragen
+### Prüfungsfragen
 - TCP Verbindungsaufbau und Abbau anhand eines Zustandautomaten erklären (Timewait...)
 - Zuverlässigkeit in TCP: Definition und Umsetzung
 - TCP Reno und New Reno: Fast Retransmit, Fast Recovery, sowie Unterschiede zw. den beiden Versionen erklären
@@ -90,14 +56,6 @@ gebraucht bis ich die richtige Idee hatte. Wurde aber nie gehetzt.
 
 
 
-### Datum der Prüfung
-Maerz 2018
-### Benötigte Lernzeit als Empfehlung
-Je nach Vorwissen, wie viel man aus der Vorlesung mitgenommen hat schwierig zu sagen. Der Umfang des Stoffes ist aber ziemlich hoch.
-### Verwendete Materialien (Bücher, Skripte etc...)
-Vorlesungsfolien, bei Detailfragen gelegentlich in Paper geblickt
-### "Atmosphäre" der Prüfung / Verhalten der Beisitzer
-sehr entspannt
 ### Prüfungsfragen
 1. TCP
 - Wie kann man Paketverluste feststellen?
@@ -117,20 +75,11 @@ sehr entspannt
 - Wie sieht der Verlauf von der Fenstergröße aus über der Zeit aus (Sägezähne)? Einmal mit RTT auf der x-achse, einmal mit der Echtzeit
 - Wie verändern sich die Sägezähne wenn die RTT sich auf einmal verdoppelt?
 
-### Note (Optional)
 ### Fazit (Gute/schlechte Prüfung , angemessene Benotung etc...)
 Insgesamt eine sehr angenehme Prüfung. Der Prüfer hat schwierige Fragen gestellt aber war auch zufrieden wenn man etwas braucht um auf die Lösung zu kommen. Am Ende war er mit meiner Prüfungsleistung zufriedener als ich.
 
 
 
-### Datum der Prüfung
-4/2018
-### Benötigte Lernzeit als Empfehlung
-1 Woche bei Anwesenheit in der vl
-### Verwendete Materialien (Bücher, Skripte etc...)
-
-### "Atmosphäre" der Prüfung / Verhalten der Beisitzer
-Entspannt, die erste Hälfte der Prüfung ist auf dem Sofa, der zweite am Whiteboard. Der Beisitzer war still.
 ### Prüfungsfragen
 1. TCP-Zustandsdiagramm:
 1.1 Wie verhält sich ein Http-Server, welche Zustände durchläuft er?
@@ -154,14 +103,6 @@ Sehr Fair, ich hätte mich eher bei 2,x gesehen
 
 
 
-### Datum der Prüfung
-April 2018
-### Benötigte Lernzeit als Empfehlung
-~10 Tage
-### Verwendete Materialien (Bücher, Skripte etc...)
-Skript, Übungsaufgaben, vereinzelt Paper und RFCs
-### "Atmosphäre" der Prüfung / Verhalten der Beisitzer
-sehr angenehm, Beisitzer sagt nichts
 ### Prüfungsfragen
 - Was bedeutet Zuverlässigkeit im Kontext von TCP? Wie wird diese umgesetzt?
 - Wie routet man innerhalb des Internets, welche Routing-Prinzipien kennen wir
@@ -174,10 +115,3 @@ sehr angenehm, Beisitzer sagt nichts
   Paketverlustraten anstellen?
 - Wie ist die durchschnittliche Datenrate im angemalten Szenario bei Verwendung
   von TCP Reno? Wie ist die Paketverlustwahrscheinlichkeit?
-### Note (Optional)
-ganz ok
-### Fazit (Gute/schlechte Prüfung, angemessene Benotung etc...)
-gute Prüfung, hätte eine schlechtere Note erwartet. Es empfiehlt sich, während
-der Prüfung seine Gedankengänge laut auszusprechen um Rückmeldung vom Prüfer zu
-erhalten. Formeln werden, sofern notwendig, durch den Prüfer aufgeschrieben; das
-Auswendiglernen war (zumindest bei mir) nicht nötig
