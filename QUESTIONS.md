@@ -7,8 +7,9 @@
 - Was ist eine kritische Variable bei Http die im wesentlichen versucht wird zu reduzieren?
 - Probleme mit dem Content-Length Header bei Http?
 - Warum ist es nicht so gutes Design, dass bei HTTP die Serverseite das Schließen von TCP Verbindugnen anstößt?
-- Was sind 
-
+- Warum sind Latenzen oftmals wichtiger als Datenraten? - Fact 2
+- Warum ist es nicht egal wer zuerst redet?
+- Warum ist es nicht egal wer das letzte Wort hat?
 - Was sind long fat pipes?
 - Was ist ein Router?
 - Was ist Router switching?
