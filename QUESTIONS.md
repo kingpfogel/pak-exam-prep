@@ -1,9 +1,16 @@
-## Timeout berechnen
+## Timeout berechnen (im Zusammenhang mit Zuverlässigkeit)
 - TCP Timeout: Wie kann man den RTO heutzutage in TCP berechnen? EstimatedRTT + 4 * DevRtt
 - Exponentiell gleitendes Mittel
 - DevRtt_new = (1-beta)DevRTT_old + beta *  | SampleRTT-EstimatedRTT |
 - Warum ist 2*EstimatedRTT kein gutes Maß für das RTO?
 - Woraus setzt sich das EstimatedRTT zusammen?
+- Was sieht die Modifikation durch den Karn-Algorithmus vor? Man darf kein ACK als RTT Messung heranziehen, wenn das Paket bereits mehr als 1 mal übertragen wurde
+- Timestamp Option noch besser als Karn.
+- Wie funktioniert die Timestamp Option?
+- Was ist muss in ein TCP Segment gebastelt werden damit die Timestamp Option funktioniert?
+- Was ist ein TDACK und wie sieht es in einem Sequenzdiagramm aus?
+- Was ist der Fast Retransmit Mechanismus?
+- Inwiefern weicht der Fast Retransmit Mechanismus der in TCP Tahoe angewandt wird vom Standard Go-Back-n ab?
 ## Random
 - Was bedeuten kumulative ACKs?
 
