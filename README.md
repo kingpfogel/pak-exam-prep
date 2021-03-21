@@ -50,7 +50,7 @@ Am WhiteBoard
 1.0
 
 ### Prüfungsfragen
-1. TCP
+#### 1. TCP
 - Wie kann man Paketverluste feststellen?
     -> TDACK und Timeouts
 - Wie muss man die Timeouts wählen?
@@ -59,7 +59,7 @@ Am WhiteBoard
     -> Fast Retransmit + Fast Recovery
 - Fast Recovery genauer erklären: Wie funktioniert Window Inflation, warum funktioniert das, Unterschiede zwischen Reno und new Reno erklären.
 - Kummulatives Diagramm über die Häufigkeit von Paketgrößen gegeben, erklären was man sieht, warum man es sieht und umwandeln.
-2. Router
+#### 2. Router
 - Wie findet ein Router den richtigen Ausgangsport für ein Paket?
     -> Matching und Longest Prefix matching erklären, vor allem im Hinblick auf Effizienz
 - Wie können Router aufgebaut werden um Pakete weiterleiten zu können?
@@ -71,20 +71,20 @@ Am WhiteBoard
 
 
 ### Prüfungsfragen
-1. TCP-Zustandsdiagramm:
-1.1 Wie verhält sich ein Http-Server, welche Zustände durchläuft er?
-1.2 Was passiert wenn der timeout beim timewait zu kurz ist?(ack beim client kommt nicht an->fin resend ->server antowrtet mit rst->verbindung geschlossen, ABER: mit FIN gesendete Daten vom Client sind nicht bestätigt, client weiß nicht ob angekommen oder nicht!
-2.: Laserverbindung zw. Mars und Erde, mehrere Gbit/s Datenrate, RTT im Minutenbereich ->Warum ist das für ein Transportprotokoll problematisch? 
-2.1 Warum ist das für tcp blöd?(stichwort long fat pipes)
-3. Wie funktioniert Routing (im Internet)?(link-state-routing, dinstance vector,BGP erklären)
-3.1 Wie sehen bgp-routen aus? (ip-präfix,as-liste,next-hop)
-3.2 warum muss die as-liste vollständig sein?(ev. Kreisrouting)
-4: Verbindung mit 2 Routern: A-10Mbits, 10ms->(R)- 2Mbits, 30ms->(R)- 1Gbit/s, 10ms->(B)
-4.1 Zeichne Graph und erkläre: R(W) und RTT(W) bei einem sliding-window
-4.2 Wo entstehen queues und wie groß sollte man die buffer bei tcp tahoe/reno wählen, um das bottleneck auszunutzen?
-4.3 Gibt es TCP-Varianten bei denen der A. Nonym nicht gefüllt wird?
-4.4 Wenn der A. Nonym vor dem Bottleneck nur halb so groß ist, reicht das noch bei tcp cubic? (ja, qmax muss nur 1/4 von bdp0 sein)
-4.5 Angenommen bei dem Link zw. R und B tritt ein zufälliger Paketverlust bei 10 hoch -7 der Pakete auf. Ist das Schlimm für TCP?
+- TCP-Zustandsdiagramm:
+- Wie verhält sich ein Http-Server, welche Zustände durchläuft er?
+- Was passiert wenn der timeout beim timewait zu kurz ist?(ack beim client kommt nicht an->fin resend ->server antowrtet mit rst->verbindung geschlossen, ABER: mit FIN gesendete Daten vom Client sind nicht bestätigt, client weiß nicht ob angekommen oder nicht!
+- Laserverbindung zw. Mars und Erde, mehrere Gbit/s Datenrate, RTT im Minutenbereich ->Warum ist das für ein Transportprotokoll problematisch? 
+- Warum ist das für tcp blöd?(stichwort long fat pipes)
+- Wie funktioniert Routing (im Internet)?(link-state-routing, dinstance vector,BGP erklären)
+- Wie sehen bgp-routen aus? (ip-präfix,as-liste,next-hop)
+- warum muss die as-liste vollständig sein?(ev. Kreisrouting)
+- Verbindung mit 2 Routern: A-10Mbits, 10ms->(R)- 2Mbits, 30ms->(R)- 1Gbit/s, 10ms->(B)
+- Zeichne Graph und erkläre: R(W) und RTT(W) bei einem sliding-window
+- Wo entstehen queues und wie groß sollte man die buffer bei tcp tahoe/reno wählen, um das bottleneck auszunutzen?
+- Gibt es TCP-Varianten bei denen der A. Nonym nicht gefüllt wird?
+- Wenn der A. Nonym vor dem Bottleneck nur halb so groß ist, reicht das noch bei tcp cubic? (ja, qmax muss nur 1/4 von bdp0 sein)
+- Angenommen bei dem Link zw. R und B tritt ein zufälliger Paketverlust bei 10 hoch -7 der Pakete auf. Ist das Schlimm für TCP?
 (R###sqrt(3/2p)mss/rtt-formel benutzen)
 ### Note (Optional)
 1,3

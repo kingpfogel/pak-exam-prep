@@ -1,7 +1,7 @@
 - Wann entsteht ist Head-of-Line Blocking?
 - Warum wird in modernen Browsern Pipelining vermieden?
 - Was ist Pipelining?
-- Was sind Probleme bei mehreren parallelen TCP Verbindungen im Zsmhg. von Http?
+- Was sind Probleme bei mehreren parallelen TCP Verbindungen im Zsmhg. von Http?__
 - Was ist eine kritische Variable bei Http die im wesentlichen versucht wird zu reduzieren?
 - Probleme mit dem Content-Length Header bei Http?
 - Warum ist es nicht so gutes Design, dass bei HTTP die Serverseite das Schließen von TCP Verbindugnen anstößt?
