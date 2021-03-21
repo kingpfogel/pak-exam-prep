@@ -4,6 +4,8 @@ Zuverlässigkeit mit Pipelining: Selective Repeat speichert alle empfangenen Pak
 
 TCP nutzt Variante von Go-Back-n
 
+TCP Tahoe (+ Fast Retransmit) -> TCP Reno (+ Fast Recovery[Thema Überlastkontrolle] ) -> TCP New Reno (+ Zuverlässigkeitsmechanismus)
+
 kumulative ACKs: mit dem letzten gesendeten ACK werden auch alle vorherigen bestätigt
 
 32bit Sequenznummern in TCP
