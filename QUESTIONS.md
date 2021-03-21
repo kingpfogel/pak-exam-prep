@@ -8,8 +8,8 @@
 - Probleme mit dem Content-Length Header bei Http?
 - Warum ist es nicht so gutes Design, dass bei HTTP die Serverseite das Schließen von TCP Verbindugnen anstößt?
 - Warum sind Latenzen oftmals wichtiger als Datenraten? - Fact 2
-- Warum ist es nicht egal wer zuerst redet?
-- Warum ist es nicht egal wer das letzte Wort hat?
+- Warum ist es nicht egal wer zuerst redet? kostet Rtt
+- Warum ist es nicht egal wer das letzte Wort hat? Entscheidet wer Verbindungen in Tabelle mit TIME_WAIT halten muss
 - Was sind long fat pipes?
 - Was ist ein Router?
 - Was ist Router switching?
