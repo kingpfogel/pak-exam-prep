@@ -1,9 +1,16 @@
+- Was sind Content Distribution Networks?
+- Was ist das Ziel von Content Distribution Networks? RTTs verkürzen - Servernähe zu Client/Browsernähe
+
+- Was ist ANycast beim Routing?
+- Was ist der naheliegene Gedanke für CDNs um zu rekonstruieren wo man eine Anfrage hin routen sollte?
+- Request Routing auf Transportschicht? Dreieck? A->B->C->A
+
 - Wann entsteht ist Head-of-Line Blocking (Http/1)?
 - Wann entsteht ist Head-of-Line Blocking (Http/2)? verloren gegangenes Segment
 
 - Warum wird in modernen Browsern Pipelining vermieden?
 - Was ist Pipelining?
-- Was sind Probleme bei mehreren parallelen TCP Verbindungen im Zsmhg. von Http?__
+- Was sind Probleme bei mehreren parallelen TCP Verbindungen im Zsmhg. von Http?
 - Was ist eine kritische Variable bei Http die im wesentlichen versucht wird zu reduzieren?
 - Probleme mit dem Content-Length Header bei Http?
 - Warum ist es nicht so gutes Design, dass bei HTTP die Serverseite das Schließen von TCP Verbindugnen anstößt?
