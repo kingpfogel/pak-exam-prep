@@ -1,3 +1,7 @@
+Zuverlässigkeit mit Pipelining: Go-back-n (empfänger kriegt 10 pakete, wenn eins fehlt in der richtigen Sequenzfolge werden alle bis zum letzten korrekt erhaltenen verworfen
+
+Zuverlässigkeit mit Pipelining: Selective Repeat speichert alle empfangenen Pakete zwischen. über timeouts werden nicht geACKte erneut gesendet
+
 Http/3.0 nutzt statt TLS und TCP nun QUIC (mit integriertem TLS) und UDP. Dadurch das TLS in QUIC integriert ist und keinen extra kryptographischen Handshake wodurch eine RTT gespart werden kann
 
 
