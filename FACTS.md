@@ -32,3 +32,6 @@ Persistenz:
 MSS Maximum Segment Size
 MTU Maximum Transmission Unit
 ICMP Internet Control Message Protocol
+
+
+- Maximale Sendemenge wird durch TCP-Sequenznummernbereich(/4) und die Größe des Empfängerpuffers beschränkt? Im schlechtesten Fall für die Beschränkung zu einem Szenario wie bei Stop and Wait
