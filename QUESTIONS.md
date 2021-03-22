@@ -5,6 +5,7 @@
 - Wie funktionieren Sende- und Empfängerpuffer? Wie erfährt der Sender wieviel noch gesendet werden kann? rwin + last acked segment 
 - Volle Empfangspuffer also wenn der Sender ein rwin=0 erhält, würden den Sender für immer davon abhalten neue Pakete zu senden, wie kann man dieses Problem lösen?
 - Wichtigste Formel des Semesters Datenrate <= Fenstergröße/RTT
+- Die wichtigste Formel ist eine obere Schranke für die Datenrate die das Protokoll erreichen kann.
 - Wie löst die Senderseite das rwin=0 Problem?
 - Wie hilft die Empfängerseite das rwin=0 Problem zu lösen?
 - Was ist der Persist-Timer?
@@ -13,6 +14,8 @@
 - Wann darf ein Probe Packet (1Byte) gesendet werden?
 - Was ist das Silly Window Syndrome?
 - Das Silly Window Syndrome, tritt auf der Empfängerseite, was ist ein ähnliches Problem auf der Senderseite, dass durch den Nagle Algorithmus gelöst werden konnte?
+- Zu kleine Fenstergröße => Stop and Wait Effekt, zu große Fenstergröße reguliert (self clocking) sich selbst, ist aber trotzdem nicht gut
+
 ## MSS und MTU
 - Was bedeuten die beiden abgekürzten Bottlenecks?
 - 576 kleinste Byte Menge per Definition = (TCP-Datenmenge)+20(Ip-Header)+20(TCP-Header) kleinste Byte Menge per TCP Definition glaub ich
