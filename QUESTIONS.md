@@ -4,13 +4,15 @@
 - Wie funktioniert der Sliding Window Algorithmus?
 - Wie funktionieren Sende- und Empfängerpuffer? Wie erfährt der Sender wieviel noch gesendet werden kann? rwin + last acked segment 
 - Volle Empfangspuffer also wenn der Sender ein rwin=0 erhält, würden den Sender für immer davon abhalten neue Pakete zu senden, wie kann man dieses Problem lösen?
-- Wichtigste Formel des Semesters Fenstergröße/RTT
+- Wichtigste Formel des Semesters Datenrate <= Fenstergröße/RTT
 - Wie löst die Senderseite das rwin=0 Problem?
 - Wie hilft die Empfängerseite das rwin=0 Problem zu lösen?
 - Was ist der Persist-Timer?
 - Wann wird der Persist Timer aktiv?
 - Was ist der Window Update Mechanismus? Empfänger sendet ein erneutes ACK mit größerem rwin
 - Wann darf ein Probe Packet (1Byte) gesendet werden?
+- Was ist das Silly Window Syndrome?
+- Das Silly Window Syndrome, tritt auf der Empfängerseite, was ist ein ähnliches Problem auf der Senderseite, dass durch den Nagle Algorithmus gelöst werden konnte?
 ## MSS und MTU
 - Was bedeuten die beiden abgekürzten Bottlenecks?
 - 576 kleinste Byte Menge per Definition = (TCP-Datenmenge)+20(Ip-Header)+20(TCP-Header) kleinste Byte Menge per TCP Definition glaub ich
@@ -25,7 +27,16 @@
 - Wie geht man mit nichtvollen Segmenten um, also mit Segmenten, dessen Datenmenge < MSS ist?
 - Was ist das Tinygram Problem?
 - Wie bietet die Funktionsweise des Nagle-Algorithmus eine Lösung auf das Tinygram Problem?
-
+- Rewatch 5-28
+- Wie nennt man Netzwerke mit hoher RTT und hoher Bandbreite?
+- Das rwin Feld ist nur 16-bit (64kBit) groß weshalb wir keine Datenpakete die größer als 64kByte sind akündigen können. Das ist viel zu klein für heutige Maßstäbe. Wie löst man das Problem?
+- Wie funktioniert der Window Scaling Algorithmus? Optionsheader Optionstyp 3
+- Rewatch 5-31
+- Sequenznummern-Überprüfung? 32 Jahre später Bug gefunden? Fin war, Syn war? Zeitgleicher Zero-Window Zustand Probe-Packe-Versand (war :D)
+- Sequenznummern-Überprüfungskriterien? Segmentlänge > 0? Fenstergröße > 0 -> gültig gdw es min. teilweise in das Fenster fällt
+- Sequenznummern-Überprüfungskriterien? Segmentlänge > 0? Fenstergröße = 0 -> ungültig
+- Sequenznummern-Überprüfungskriterien? Segmentlänge = 0? Fenstergröße > 0 -> gültig gdw Seq.Nr. ins Fenster fällt
+- Sequenznummern-Überprüfungskriterien? Segmentlänge = 0? Fenstergröße = 0 -> gültig gdw die Seq.Nr genau das erste fehlende Byte hinter dem Fenster ist
 ## Timeout berechnen (im Zusammenhang mit Zuverlässigkeit)
 - TCP Timeout: Wie kann man den RTO heutzutage in TCP berechnen? EstimatedRTT + 4 * DevRtt
 - Exponentiell gleitendes Mittel
