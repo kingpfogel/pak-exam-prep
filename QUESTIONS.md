@@ -1,3 +1,16 @@
+## Flusskontrolle
+- Wieviele darf der Sender senden, wieviel kann der Empfänger verarbeiten?
+- Was garantiert Flusskontrolle?
+- Wie funktioniert der Sliding Window Algorithmus?
+- Wie funktionieren Sende- und Empfängerpuffer? Wie erfährt der Sender wieviel noch gesendet werden kann? rwin + last acked segment 
+- Volle Empfangspuffer also wenn der Sender ein rwin=0 erhält, würden den Sender für immer davon abhalten neue Pakete zu senden, wie kann man dieses Problem lösen?
+- Wichtigste Formel des Semesters Fenstergröße/RTT
+- Wie löst die Senderseite das rwin=0 Problem?
+- Wie hilft die Empfängerseite das rwin=0 Problem zu lösen?
+- Was ist der Persist-Timer?
+- Wann wird der Persist Timer aktiv?
+- Was ist der Window Update Mechanismus? Empfänger sendet ein erneutes ACK mit größerem rwin
+- Wann darf ein Probe Packet (1Byte) gesendet werden?
 ## MSS und MTU
 - Was bedeuten die beiden abgekürzten Bottlenecks?
 - 576 kleinste Byte Menge per Definition = (TCP-Datenmenge)+20(Ip-Header)+20(TCP-Header) kleinste Byte Menge per TCP Definition glaub ich
@@ -12,11 +25,7 @@
 - Wie geht man mit nichtvollen Segmenten um, also mit Segmenten, dessen Datenmenge < MSS ist?
 - Was ist das Tinygram Problem?
 - Wie bietet die Funktionsweise des Nagle-Algorithmus eine Lösung auf das Tinygram Problem?
-## Flusskontrolle
-- Wieviele darf der Sender senden, wieviel kann der Empfänger verarbeiten?
-- Was garantiert Flusskontrolle?
-- Wie funktioniert der Sliding Window Algorithmus?
-- Wie funktionieren Sende- und Empfängerpuffer? Wie erfährt der Sender wieviel noch gesendet werden kann? rwin + last acked segment 
+
 ## Timeout berechnen (im Zusammenhang mit Zuverlässigkeit)
 - TCP Timeout: Wie kann man den RTO heutzutage in TCP berechnen? EstimatedRTT + 4 * DevRtt
 - Exponentiell gleitendes Mittel
