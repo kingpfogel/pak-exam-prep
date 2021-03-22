@@ -29,9 +29,9 @@ Persistenz:
 - Mit lokalem Caching/fast lokales Caching
 - CDNs zu nahegelegenen Kopien umleiten
 
-MSS Maximum Segment Size
-MTU Maximum Transmission Unit
-ICMP Internet Control Message Protocol
+- MSS Maximum Segment Size
+- MTU Maximum Transmission Unit
+- ICMP Internet Control Message Protocol
 
 
 - Maximale Sendemenge wird durch TCP-Sequenznummernbereich(/4) und die Größe des Empfängerpuffers beschränkt? Im schlechtesten Fall für die Beschränkung zu einem Szenario wie bei Stop and Wait
