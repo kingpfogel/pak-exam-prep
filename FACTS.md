@@ -28,3 +28,7 @@ Persistenz:
 - RTTs verringern/vermeiden -> Kommunikationsdistanzen reduzieren
 - Mit lokalem Caching/fast lokales Caching
 - CDNs zu nahegelegenen Kopien umleiten
+
+MSS Maximum Segment Size
+MTU Maximum Transmission Unit
+ICMP Internet Control Message Protocol

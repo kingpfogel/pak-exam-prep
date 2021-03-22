@@ -1,3 +1,22 @@
+## MSS und MTU
+- Was bedeuten die beiden abgekürzten Bottlenecks?
+- 576 kleinste Byte Menge per Definition = (TCP-Datenmenge)+20(Ip-Header)+20(TCP-Header) kleinste Byte Menge per TCP Definition glaub ich
+- Warum ist die minimale Segment Größe von TCP 536 und die minimale Transmission Unit ist aber durch den Wert 576 beschränkt?
+- Wie kann der Sender vom Empfänger erfahren wie groß ein Segment maximal sein darf?
+- Woher stammt die Größe der MTU? Sicherungsschicht gibt das normalerweise vor? Schicht 2 gibt vor, eigentlich ist es eine Eigenschaft des Pfades und somit ein Konzept der Netzwerkschicht und beachtet muss sie in der Transportschicht werden 
+- Path MTU Discovery Paper screenen?
+- Was ist MSS Clamping und warum ist es ein "Hack"?
+- Welche Schicht pfuscht beim MSS Clamping in einer anderen herum und mit welchem Ziel?
+- MSS Clamping widerspricht dem Konzept: separation of concerns? 
+- MSS in TCPsprech (ugs.) meint minimum aus MSS und MTU
+- Wie geht man mit nichtvollen Segmenten um, also mit Segmenten, dessen Datenmenge < MSS ist?
+- Was ist das Tinygram Problem?
+- Wie bietet die Funktionsweise des Nagle-Algorithmus eine Lösung auf das Tinygram Problem?
+## Flusskontrolle
+- Wieviele darf der Sender senden, wieviel kann der Empfänger verarbeiten?
+- Was garantiert Flusskontrolle?
+- Wie funktioniert der Sliding Window Algorithmus?
+- Wie funktionieren Sende- und Empfängerpuffer? Wie erfährt der Sender wieviel noch gesendet werden kann? rwin + last acked segment 
 ## Timeout berechnen (im Zusammenhang mit Zuverlässigkeit)
 - TCP Timeout: Wie kann man den RTO heutzutage in TCP berechnen? EstimatedRTT + 4 * DevRtt
 - Exponentiell gleitendes Mittel
@@ -11,6 +30,12 @@
 - Was ist ein TDACK und wie sieht es in einem Sequenzdiagramm aus?
 - Was ist der Fast Retransmit Mechanismus?
 - Inwiefern weicht der Fast Retransmit Mechanismus der in TCP Tahoe angewandt wird vom Standard Go-Back-n ab?
+- Selective Acknowledgements (SACKs) Option 4 in TCP Optionen wenn man das beherrscht und 5 beinhaltet Segmente
+- Warum kann die SACK-Option nicht endlos lang werden?
+- DACK Delayed ACK / Jedes 2. mit begrenzung von 500ms
+- Was ist die funktionsweise des DACK-Mechanismus?
+- Welchen Mechanismus soll das DACK effizienter gestalten?
+
 ## Random
 - Was bedeuten kumulative ACKs?
 
