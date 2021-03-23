@@ -106,7 +106,6 @@
 - Zustandsdiagramme von TCP Algorithmen?
 - Was sind mögliche Probleme, wenn der Server seine Verbindung schließen möchte?
 - Und was passiert im schlimmsten Fall, wenn der Server sein Timeout zu klein wählt?
-
 - Ein Sender überträgt mit großer Datenrate über einen Ruter der nur kleine Datenraten weitersenden kann?
 
 ## Sachen die in Fragen verpackt werden müssen, wenn notwendig
@@ -118,9 +117,7 @@
 - Fast Retransmit
 - Fast Recovery
 - Unterschiede: TCP Reno und TCP New Reno
-
 - BGP und Routing
-
 - Selbstsynchronisierungseffekte
 - Was ist ein TDACK?
 - Wie kann man Paketverluste feststellen?
