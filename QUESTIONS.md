@@ -71,12 +71,9 @@
 ## Random
 - Was bedeuten kumulative ACKs?
 
-
-
 ## CDN Ziele und Ideen um RTTs zu verkürzen
 - Was sind Content Distribution Networks?
 - Was ist das Ziel von Content Distribution Networks? RTTs verkürzen - Servernähe zu Client/Browsernähe
-
 - Was ist ANycast beim Routing?
 - Was ist der naheliegene Gedanke für CDNs um zu rekonstruieren wo man eine Anfrage hin routen sollte?
 - Request Routing auf Transportschicht? Dreieck? A->B->C->A
