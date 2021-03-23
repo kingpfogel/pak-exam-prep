@@ -81,7 +81,6 @@
 ## Http Stuff
 - Wann entsteht ist Head-of-Line Blocking (Http/1)?
 - Wann entsteht ist Head-of-Line Blocking (Http/2)? verloren gegangenes Segment, TCP zuverlässig
-
 - Rewatch: Warum wird in modernen Browsern Pipelining vermieden?
 - Was ist Pipelining?
 - Was sind Probleme bei mehreren parallelen TCP Verbindungen im Zsmhg. von Http?
