@@ -35,3 +35,4 @@ Persistenz:
 
 
 - Maximale Sendemenge wird durch TCP-Sequenznummernbereich(/4) und die Größe des Empfängerpuffers beschränkt? Im schlechtesten Fall für die Beschränkung zu einem Szenario wie bei Stop and Wait
+- TCP SACK ist eine Erweiterung des TCP-Protokolls, die für eine Steigerung des Datendurchsatzes bei Paketverlusten sorgt.

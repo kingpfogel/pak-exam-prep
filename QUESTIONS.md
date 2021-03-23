@@ -1,3 +1,11 @@
+## Warteschlangen
+- Zu kleine Fenstergröße => Stop and Wait Effekt, zu große Fenstergröße reguliert (self clocking) sich selbst, ist aber trotzdem nicht gut
+- Warum bleibt die Formel Datarate R=W/RTT erhalten, selbst wenn die Fenstergröße größer als das BDP gewählt wird? 
+- Man muss unterscheiden zwischen R und Rb(b=bottleneck link) und kann dann dementsprechend die Formel anpassen und die RTT für den Rb und W ausrechnen. Diese RTT ist dann die im ausgelasteten Netz und RTT0 ist die am Anfang. BDP0 = Rb*RTT0
+- Warteschlangentheorie???
+- Lambda Datenrate bzw: der Wert, der uns die Information liefert wie groß die durchschnittlichen Zeiten zwischen 2 Paketen sind
+- In der normalen Netzwerktheorie würde ein gerade abfließendes Paket nicht mitgezählt werden, in der Wartenschlangentheorie hingegen schon. Warum ist das so?
+
 ## Flusskontrolle
 - Wieviele darf der Sender senden, wieviel kann der Empfänger verarbeiten?
 - Was garantiert Flusskontrolle?
@@ -14,13 +22,7 @@
 - Wann darf ein Probe Packet (1Byte) gesendet werden?
 - Was ist das Silly Window Syndrome?
 - Das Silly Window Syndrome, tritt auf der Empfängerseite, was ist ein ähnliches Problem auf der Senderseite, dass durch den Nagle Algorithmus gelöst werden konnte?
-## Warteschlangen
-- Zu kleine Fenstergröße => Stop and Wait Effekt, zu große Fenstergröße reguliert (self clocking) sich selbst, ist aber trotzdem nicht gut
-- Warum bleibt die Formel Datarate R=W/RTT erhalten, selbst wenn die Fenstergröße größer als das BDP gewählt wird? 
-- Man muss unterscheiden zwischen R und Rb(b=bottleneck link) und kann dann dementsprechend die Formel anpassen und die RTT für den Rb und W ausrechnen. Diese RTT ist dann die im ausgelasteten Netz und RTT0 ist die am Anfang. BDP0 = Rb*RTT0
-- Warteschlangentheorie???
-- Lambda Datenrate bzw: der Wert, der uns die Information liefert wie groß die durchschnittlichen Zeiten zwischen 2 Paketen sind
-- In der normalen Netzwerktheorie würde ein gerade abfließendes Paket nicht mitgezählt werden, in der Wartenschlangentheorie hingegen schon. Warum ist das so?
+
 ## MSS und MTU
 - Was bedeuten die beiden abgekürzten Bottlenecks?
 - 576 kleinste Byte Menge per Definition = (TCP-Datenmenge)+20(Ip-Header)+20(TCP-Header) kleinste Byte Menge per TCP Definition glaub ich
@@ -54,6 +56,8 @@
 - Was sieht die Modifikation durch den Karn-Algorithmus vor? Man darf kein ACK als RTT Messung heranziehen, wenn das Paket bereits mehr als 1 mal übertragen wurde
 - Timestamp Option noch besser als Karn.
 - Wie funktioniert die Timestamp Option?
+
+#### Mechanismen zum erhöhen des Datendurchsatzes bzw. zur Verbesserung der Netzwerkperformanz durch Reduktion des Protokolloverheads (u.a. bei Paketverlusten)?
 - Was ist muss in ein TCP Segment gebastelt werden damit die Timestamp Option funktioniert?
 - Was ist ein TDACK und wie sieht es in einem Sequenzdiagramm aus?
 - Was ist der Fast Retransmit Mechanismus?
@@ -79,14 +83,14 @@
 
 ## Http Stuff
 - Wann entsteht ist Head-of-Line Blocking (Http/1)?
-- Wann entsteht ist Head-of-Line Blocking (Http/2)? verloren gegangenes Segment
+- Wann entsteht ist Head-of-Line Blocking (Http/2)? verloren gegangenes Segment, TCP zuverlässig
 
-- Warum wird in modernen Browsern Pipelining vermieden?
+- Rewatch: Warum wird in modernen Browsern Pipelining vermieden?
 - Was ist Pipelining?
 - Was sind Probleme bei mehreren parallelen TCP Verbindungen im Zsmhg. von Http?
 - Was ist eine kritische Variable bei Http die im wesentlichen versucht wird zu reduzieren?
 - Probleme mit dem Content-Length Header bei Http?
-- Warum ist es nicht so gutes Design, dass bei HTTP die Serverseite das Schließen von TCP Verbindugnen anstößt?
+- Warum ist es nicht so gutes Design, dass bei HTTP die Serverseite das Schließen von TCP Verbindungen anstößt?
 - Warum sind Latenzen oftmals wichtiger als Datenraten? - Fact 2
 - Warum ist es nicht egal wer zuerst redet? kostet Rtt
 - Warum ist es nicht egal wer das letzte Wort hat? Entscheidet wer Verbindungen in Tabelle mit TIME_WAIT halten muss
