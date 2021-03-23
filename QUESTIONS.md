@@ -14,8 +14,13 @@
 - Wann darf ein Probe Packet (1Byte) gesendet werden?
 - Was ist das Silly Window Syndrome?
 - Das Silly Window Syndrome, tritt auf der Empfängerseite, was ist ein ähnliches Problem auf der Senderseite, dass durch den Nagle Algorithmus gelöst werden konnte?
+## Warteschlangen
 - Zu kleine Fenstergröße => Stop and Wait Effekt, zu große Fenstergröße reguliert (self clocking) sich selbst, ist aber trotzdem nicht gut
-
+- Warum bleibt die Formel Datarate R=W/RTT erhalten, selbst wenn die Fenstergröße größer als das BDP gewählt wird? 
+- Man muss unterscheiden zwischen R und Rb(b=bottleneck link) und kann dann dementsprechend die Formel anpassen und die RTT für den Rb und W ausrechnen. Diese RTT ist dann die im ausgelasteten Netz und RTT0 ist die am Anfang. BDP0 = Rb*RTT0
+- Warteschlangentheorie???
+- Lambda Datenrate bzw: der Wert, der uns die Information liefert wie groß die durchschnittlichen Zeiten zwischen 2 Paketen sind
+- In der normalen Netzwerktheorie würde ein gerade abfließendes Paket nicht mitgezählt werden, in der Wartenschlangentheorie hingegen schon. Warum ist das so?
 ## MSS und MTU
 - Was bedeuten die beiden abgekürzten Bottlenecks?
 - 576 kleinste Byte Menge per Definition = (TCP-Datenmenge)+20(Ip-Header)+20(TCP-Header) kleinste Byte Menge per TCP Definition glaub ich
